@@ -1,1 +1,10 @@
 @charset "UTF-8";
+
+* {
+    text-decoration: none;
+}
+
+header {
+    background-color: black;
+    color: white;
+}
