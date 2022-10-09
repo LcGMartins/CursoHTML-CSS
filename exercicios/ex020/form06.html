@@ -12,16 +12,16 @@
     <h1>Teste de formulário</h1>
     <form action="cadastro.php" method="get" autocomplete="on">
         <p>
-            <label for="inome">Nome:</label>
-            <input type="text" name="nome" id="inome" required maxlength="30" placeholder="Nome completo">
+            <label for="icor">Cor:</label>
+            <input type="color" name="cor" id="icor" value="#00ff00">
         </p>
         <p>
-            <label for="iemail">Email:</label>
-            <input type="email" name="email" id="iemail" required autocomplete="email">
+            <label for="isas">Satisfação:</label>
+            <input type="range" name="sas" id="isas" min="1" max="5" value="2">
         </p>
         <p>
-            <label for="itel">Telefone:</label>
-            <input type="tel" name="tel" id="itel" required autocomplete="tel">
+            <label for="iarq">Arquivo:</label>
+            <input type="file" name="arq" id="iarq">
         </p>
         <p>
             <input type="submit" value="Enviar">
