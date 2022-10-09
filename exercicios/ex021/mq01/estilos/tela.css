@@ -18,7 +18,7 @@ header {
 }
 
 header h1 {
-    padding: 30px;
+    padding: 25px;
     color: #dd0000;
     font-weight: bolder;
     text-align: center;
@@ -38,7 +38,10 @@ menu li {
     padding: 10px;
     color: white;
     font-weight: bolder;
+    cursor: pointer;
 }
+
+
 
 article {
     display: block;
